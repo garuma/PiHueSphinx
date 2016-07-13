@@ -1,8 +1,20 @@
 # PiHueSphinx
 
-A simple C# program using pocketsphinx to control Phillips Hue lights using voice commands.
+A simple C# program using pocketsphinx to control Phillips Hue lights using voice commands. I run this on a Raspberry Pi in my home.
 
 aka. my cheap Alexa
+
+## Usage
+
+`PiHueSphinx.exe CONFIG HOTWORD ALSA_INPUT_DEVICE [HUE_API_KEY]`
+
+Example: `mono --debug PiHueSphinx.exe pocketsphinx.conf "OKAY RASPBERRY" "plug:usb" "<Your Hue API Key>"`
+
+If you want to change the hotword it needs to be part of your corpus and the language model needs to be re-generated, see section below.
+
+The ALSA input device can be whatever ALSA supports, in my case it's a USB camera from which I use the microphone. Refer to ALSA documentation to learn how to setup an input device. Your device might need a different input sampling rate that you can change in the `pocketsphinx.conf` file.
+
+Once the program has associated with your Hue bridge and generated an app key (it will print it on the console), you should start passing it as the last argument.
 
 ## Generating pocketsphinx language model
 

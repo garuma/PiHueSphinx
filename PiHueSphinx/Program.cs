@@ -7,6 +7,11 @@ namespace PiHueSphinx
 	{
 		const int CommandTry = 3;
 
+		/* Usage:
+		 *     PiHueSphinx.exe CONFIG HOTWORD ALSA_INPUT_DEVICE HUE_API_KEY
+		 * Example
+		 *     mono --debug PiHueSphinx.exe pocketsphinx.conf "OKAY RASPBERRY" "plug:usb" "<Your Hue API Key>"
+		 */
 		public static void Main (string [] args)
 		{
 			var ps = SphinxWrapper.InitSphinx (args [0], args [1]);
