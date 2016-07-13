@@ -1,6 +1,6 @@
 # PiHueSphinx
 
-A simple C# program using pocketsphinx to control Phillips Hue lights.
+A simple C# program using pocketsphinx to control Phillips Hue lights using voice commands.
 
 aka. my cheap Alexa
 
