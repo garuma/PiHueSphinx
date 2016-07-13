@@ -1,0 +1,66 @@
+Language model created by QuickLM on Mon May  9 22:22:21 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=16
+ngram 3=16
+
+\1-grams:
+-0.9611 </s> -0.3010
+-0.9611 <s> -0.2507
+-1.5051 ALL -0.2872
+-1.5051 BEDROOM -0.2507
+-1.5051 LIGHTS -0.2507
+-1.5051 LIVING -0.2872
+-1.8062 OKAY -0.2942
+-1.3291 OPEN -0.2583
+-1.8062 RASPBERRY -0.2507
+-1.5051 ROOM -0.2507
+-1.3291 SHUTDOWN -0.2583
+
+\2-grams:
+-1.1461 <s> OKAY 0.0000
+-0.6690 <s> OPEN 0.0000
+-0.6690 <s> SHUTDOWN 0.0000
+-0.3010 ALL LIGHTS 0.0000
+-0.3010 BEDROOM </s> -0.3010
+-0.3010 LIGHTS </s> -0.3010
+-0.3010 LIVING ROOM 0.0000
+-0.3010 OKAY RASPBERRY 0.0000
+-0.7782 OPEN ALL 0.0000
+-0.7782 OPEN BEDROOM 0.0000
+-0.7782 OPEN LIVING 0.0000
+-0.3010 RASPBERRY </s> -0.3010
+-0.3010 ROOM </s> -0.3010
+-0.7782 SHUTDOWN ALL 0.0000
+-0.7782 SHUTDOWN BEDROOM 0.0000
+-0.7782 SHUTDOWN LIVING 0.0000
+
+\3-grams:
+-0.3010 <s> OKAY RASPBERRY
+-0.7782 <s> OPEN ALL
+-0.7782 <s> OPEN BEDROOM
+-0.7782 <s> OPEN LIVING
+-0.7782 <s> SHUTDOWN ALL
+-0.7782 <s> SHUTDOWN BEDROOM
+-0.7782 <s> SHUTDOWN LIVING
+-0.3010 ALL LIGHTS </s>
+-0.3010 LIVING ROOM </s>
+-0.3010 OKAY RASPBERRY </s>
+-0.3010 OPEN ALL LIGHTS
+-0.3010 OPEN BEDROOM </s>
+-0.3010 OPEN LIVING ROOM
+-0.3010 SHUTDOWN ALL LIGHTS
+-0.3010 SHUTDOWN BEDROOM </s>
+-0.3010 SHUTDOWN LIVING ROOM
+
+\end\

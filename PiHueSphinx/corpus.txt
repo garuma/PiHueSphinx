@@ -1,0 +1,7 @@
+okay raspberry
+shutdown all lights
+open all lights
+shutdown bedroom
+open bedroom
+shutdown living room
+open living room
