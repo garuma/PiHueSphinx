@@ -4,6 +4,14 @@ A simple C# program using pocketsphinx to control Phillips Hue lights using voic
 
 aka. my cheap Alexa
 
+## Building
+
+Provided you have installed a recent pocketsphinx library, you should be able to build everything from the IDE or via `xbuild`/`msbuild`.
+
+By recent pocketsphinx library, that would usually mean going to http://cmusphinx.sourceforge.net/wiki/download and building the last version from there as your distribution packages likely haven't caught up.
+
+If the C compilation fails, you can adjust properties and stuff at the end of the `PiHueSphinx.csproj` file to make sure it's finding your copy of libpocketsphinx.
+
 ## Usage
 
 `PiHueSphinx.exe CONFIG HOTWORD ALSA_INPUT_DEVICE [HUE_API_KEY]`
