@@ -1,4 +1,6 @@
-# PiHueSphinx: a simple C# program using pocketsphinx to control Phillips Hue lights.
+# PiHueSphinx
+
+A simple C# program using pocketsphinx to control Phillips Hue lights.
 
 aka. my cheap Alexa
 
@@ -20,8 +22,8 @@ When you run the program it will locate the Phillips base station using host dis
 
 ## Libraries used
 
-Pocketsphinx: https://github.com/cmusphinx/pocketsphinx
-Q42 Hue API: https://github.com/Q42/Q42.HueApi
+- Pocketsphinx: https://github.com/cmusphinx/pocketsphinx
+- Q42 Hue API: https://github.com/Q42/Q42.HueApi
 
 ## License
 
